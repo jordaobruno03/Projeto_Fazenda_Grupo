@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TelaLogin.MainPage">
+
+    <StackLayout BackgroundColor="GreenYellow">
+        <Image Source="source/Fazenda-urbana-begreen.png"
+               Aspect="AspectFill" 
+               HeightRequest="200" 
+               WidthRequest="200"/>
+
+        <Label Text=" Bem vindo a Fazenda Urbana!" TextColor="Black" HorizontalTextAlignment="Center" FontSize="18" Padding="5,5,5,5"/>
+
+        <Label Text="Login" TextColor="Black" HorizontalTextAlignment="Center" FontSize="Large"/>
+        <Entry x:Name="txtLogin" Keyboard="Text" ReturnType="Default"/>
+        
+        <Label Text="Senha" TextColor="Black" HorizontalTextAlignment="Center" FontSize="Large"/>
+        <Entry x:Name="txtSenha" Keyboard="Text" ReturnType="Default"/>
+
+        <Button Text="Entrar" TextColor="White" BackgroundColor="Black" Clicked="Button_Clicked" FontSize="20" VerticalOptions="Fill" HorizontalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+</ContentPage>
