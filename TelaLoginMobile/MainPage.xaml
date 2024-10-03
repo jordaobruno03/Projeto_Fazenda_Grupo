@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TelaLogin.MainPage">
@@ -13,7 +15,7 @@
 
         <Label Text="Login" TextColor="Black" HorizontalTextAlignment="Center" FontSize="Large"/>
         <Entry x:Name="txtLogin" Keyboard="Text" ReturnType="Default"/>
-        
+
         <Label Text="Senha" TextColor="Black" HorizontalTextAlignment="Center" FontSize="Large"/>
         <Entry x:Name="txtSenha" Keyboard="Text" ReturnType="Default"/>
 
